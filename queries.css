@@ -1,0 +1,116 @@
+/* Base styles already defined */
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header-container-element {
+    width: 50%;
+  }
+
+  .cta-full-container {
+    width: 1400px;
+    gap: 4rem;
+  }
+}
+
+/* Medium devices (tablets, 768px to 1199px) */
+@media (max-width: 1199px) {
+  .navigation-container {
+    padding: 2.4rem 4.8rem;
+  }
+
+  .nav-link {
+    gap: 3rem;
+  }
+
+  .header-container-element {
+    width: 70%;
+  }
+
+  .cta-full-container {
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: auto;
+    padding: 0 2rem;
+  }
+
+  .cta-item-box {
+    width: 45%;
+  }
+}
+
+/* Small devices (phones, 480px to 767px) */
+@media (max-width: 767px) {
+  .navigation-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .nav-link {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .header-container-element {
+    width: 85%;
+    text-align: center;
+  }
+
+  .primary-info {
+    font-size: 4rem;
+  }
+
+  .cta-full-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .cta-item-box {
+    width: 100%;
+  }
+
+  .cta-heading {
+    font-size: 2.4rem;
+  }
+}
+
+/* Extra small devices (phones, less than 480px) */
+@media (max-width: 480px) {
+  .navigation-container {
+    padding: 1.6rem;
+  }
+
+  .nav-link {
+    gap: 1rem;
+    font-size: 1.8rem;
+  }
+
+  .signup-btn {
+    padding: 1.2rem 2rem;
+    font-size: 2rem;
+  }
+
+  .primary-info {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+
+  .cta-heading {
+    font-size: 2rem;
+  }
+
+  .s-section span a {
+    font-size: 1.4rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .footer-info {
+    font-size: 1.6rem;
+  }
+}

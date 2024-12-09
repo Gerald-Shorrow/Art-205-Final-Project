@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+}
+
+.navigation-container {
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.2rem 6.4rem;
+  margin-bottom: 6.4rem;
+}
+
+.nav-link {
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-li:link,
+.nav-li:visited {
+  list-style: none;
+  color: #fff;
+  font-size: 3.2rem;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.nav-li:hover,
+.nav-li:active {
+  color: #ff5e23;
+}
+
+.signup-btn {
+  background-color: #ff4500;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.signup-btn:hover {
+  color: #fff;
+  background-color: #ff5e23;
+}
+.header-logo {
+  width: 16rem;
+}
+
+.cta-btn:link,
+.cta-btn:visited {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #ff4500;
+  color: #fff;
+  padding: 2rem 3.2rem;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.cta-btn:hover,
+.cta-btn:active {
+  background-color: #ff5e23;
+  transition: 0.8s;
+}
+
+.primary-info {
+  font-size: 5.2rem;
+  margin-bottom: 2.2rem;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 2.2rem;
+  line-height: 1.5;
+  margin-bottom: 2.2rem;
+  letter-spacing: 1.3px;
+  font-weight: 500;
+}
+
+h2 {
+  margin: 22px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1500px;
+}
+
+.header-container-element {
+  width: 60%;
+}
+header {
+  height: 100vh;
+  color: #fff;
+  /* background-color: orangered; */
+  position: relative;
+  background-image: linear-gradient(#00000065, #0000008b), url(hero.jpg);
+  background-size: cover;
+}
+
+.border-container {
+  width: 1300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* |||||||||||||||||||||||||||||| */
+/* call to action section */
+/* |||||||||||||||||||||||||||||| */
+
+.cta-heading {
+  margin: 12rem 0;
+}
+
+/* .cta-heading-info {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ff4500;
+  margin-bottom: 10rem;
+  padding: 1.5rem 2.5rem;
+} */
+.cta-heading {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.four-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.cta-item-box {
+  width: 32.2rem;
+  box-shadow: 12px 12px 40px 12px rgba(0, 0, 0, 0.07);
+  border-radius: 9px;
+  transition: transform 0.3s;
+}
+
+.cta-img {
+  width: 100%;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.article-p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.article-p span {
+  background-color: #008000;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  border-radius: 9px;
+}
+
+.article-info {
+  margin-top: 2rem;
+}
+.s-section {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+.s-section span a {
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: #ff4500;
+  padding: 0.5rem 1.2rem;
+  color: #fff;
+  border-radius: 9px;
+  margin-bottom: 0;
+}
+
+.s-section span a:hover {
+  background-color: #ff5e23;
+  cursor: pointer;
+}
+
+.s-section img {
+  width: 8.4rem;
+}
+
+.cta-itme ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  list-style: none;
+  padding-left: 2rem;
+  overflow: hidden;
+}
+
+.cta-item-box:hover {
+  transform: translateY(-2rem);
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
+}
+
+.cta-full-container {
+  width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+/* |||||||||||||||||||||||||||||| */
+/* Footer section */
+/* |||||||||||||||||||||||||||||| */
+.footer-container {
+  margin: 10rem 0;
+}
+
+.cmmt {
+  margin-bottom: 0;
+}
+.footer-info {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #555;
+}
